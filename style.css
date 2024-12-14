@@ -130,3 +130,30 @@ hr {
     background-color: #ddd; /* Light gray color for the line */
     margin: 10px 0; /* Margin around the line */
 }
+
+/* Responsive  */
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .calculater {
+        width: 90%; /* Use 90% width for smaller screens */
+    }
+    .calc-input {
+        font-size: 24px; /* Decrease font size */
+    }
+    #ope-input {
+        font-size: 18px;
+    }
+    button {
+        padding: 12px;
+        font-size: 18px; /* Smaller button size */
+    }
+}
+
+@media (max-width: 480px) {
+    .calac-grid {
+        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on small screens */
+    }
+    .history-page {
+        font-size: 18px; /* Smaller text in history page */
+    }
+}
