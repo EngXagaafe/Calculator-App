@@ -135,7 +135,7 @@ hr {
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     .calculater {
-        width: 90%; /* Use 90% width for smaller screens */
+        width: 85%; /* Use 90% width for smaller screens */
     }
     .calc-input {
         font-size: 24px; /* Decrease font size */
@@ -149,7 +149,7 @@ hr {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 430px) {
     .calac-grid {
         grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on small screens */
     }
